@@ -50,7 +50,8 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        title: const Text("Flutter Weather App"),
+        centerTitle: true,
+        title: const Text("Weather App"),
         actions: [
           IconButton(
               onPressed: () async {
