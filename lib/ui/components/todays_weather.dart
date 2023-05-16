@@ -65,12 +65,11 @@ class TodaysWeather extends StatelessWidget {
         ),
         SizedBox(
           width: double.infinity,
-          //padding: EdgeInsets.all(8),
           height: 300,
           child: Column(
             children: [
               Container(
-                padding: const EdgeInsets.all(8),
+                padding: const EdgeInsets.all(9),
                 decoration: const BoxDecoration(
                     color: Colors.white10,
                     borderRadius:
